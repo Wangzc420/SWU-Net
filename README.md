@@ -15,10 +15,21 @@ The detailed modules of SWU-Net, including Encoder, bottleneck, and Decoder, are
   <img src="https://github.com/Wangzc420/SWU-Net/blob/main/Image/Figure2.png">
 </div>
 
-## Experimental set up and Results
+## Experimental set up
 The experiment system of EIT-DAS contains contains three parts of a sensor array with 16 electrodes attached on a circle tank, a FPGA-based data acquisition system (DAS), and a host PC for image reconstruction software. The DAS system consists of a sensing array, an FPGA master controller, a digital/analog converter, a voltage-controlled current source (VCCS), a programmable variable gain amplifier (PGA), and a PC software, as shown in Fig. R1. The observation domain is with the radius of 0.19 m, the SNR of this system is about 70 dB, bit resolution of AD converter is 14 bits. The dynamic voltage range of ADC is from −5 V to 5 V. The frequency of excitation current is 50 kHz, and the amplitude of current is 2 mA.
 
 The equipments of DAS and the workflow are shown as:
 <div align="center">
   <img src="https://github.com/Wangzc420/SWU-Net/blob/main/Image/Figure3.png">
+</div>
+
+## Results
+
+This part gives the simulation results of shape reconstruction and the real-world results of multi-phase and lung-shaped phantom results. The visualizations are given as follows:
+<div align="center">
+  <img src="https://github.com/Wangzc420/SWU-Net/blob/main/Image/Figure4.png">
+</div>
+
+<div align="center">
+  <img src="https://github.com/Wangzc420/SWU-Net/blob/main/Image/Figure5.png">
 </div>
