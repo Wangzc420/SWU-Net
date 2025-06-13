@@ -8,3 +8,8 @@ The overview of SWU-Net is shown as follows.
 <div align="center">
   <img src="https://github.com/Wangzc420/SWU-Net/blob/main/Image/Figure1.png">
 </div>
+
+The detailed modules of SWU-Net, including Encoder, bottleneck, and Decoder, are given as follows.
+<div align="center">
+  <img src="https://github.com/Wangzc420/SWU-Net/blob/main/Image/Figure2.png">
+</div>
