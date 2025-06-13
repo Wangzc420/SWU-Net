@@ -33,3 +33,9 @@ This part gives the simulation results of shape reconstruction and the real-worl
 <div align="center">
   <img src="https://github.com/Wangzc420/SWU-Net/blob/main/Image/Figure5.png">
 </div>
+
+According to the visualization results, we can draw some new insights as follows: 
+(i) It can be seen that the Cv-NR method (utilizing the sensitivity linearization method) only reflects the approximate distributions of the inclusions, but it cannot give accurate features about the shape characteristics and the conductivity parameters, and the boundaries show obvious distortions. 
+(ii) The CNN-based methods still embody better reconstruction results, however, it can be seen that the CvUNet using a single receptive field shows obvious errors in the location of conductivity changes and fails to accurately give conductivity parameter information in scenes with multi-phase inclusions. The CvISTA-Net, CvResNet, and CvDenseUNet still suffer from shape distortion, although they are improved compared to vanilla U-shape architecture in terms of shape representation ability. It shows the limitation of using only local features to realize the EIT reconstruction task. 
+(iii) The Transformer-based ideas have a higher consistency between the reconstruction results and the real distribution due to the integration of global feature modeling and local information construction. In particular, our SWU-Net method does not need the numerical results as a priori information for the initial imaging. The multi-scale representation abilities in the Transformer-block and dual-domain latent representations improve the quality of the reconstructed image.
+
